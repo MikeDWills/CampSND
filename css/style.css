@@ -1,0 +1,47 @@
+.third p {
+	font-size: 2em;
+	color: #fff;
+}
+
+h2 {
+	font-size: 3em;
+	color: #fff;
+	-webkit-margin-after: .05em;
+}
+
+.hero{
+	background-color: red;
+	width: 100%;
+	padding: 3em 0;
+	float: left;
+}
+
+body {
+	background-color: orange;
+	font-size: 12px;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.third {
+	width: 100%;
+	float: left;
+}
+
+@media (min-width: 768px) {
+	.third {
+		width: 29%;
+		margin: 2%;
+	}
+	body{
+		background-color: blue;
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 500px) {
+
+}
